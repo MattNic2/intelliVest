@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    background: #131313;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: #fff;
+    font-size: 1.1.rem;
+    padding: 0 0.8rem
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #00BF85;
+}
+
+#navbarSupportedContent > button{
+    font-family: 'Poppins', sans-serif;
+    background: #00BF85;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+
+.mid {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.mid video {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mid .hero{
+    position: relative;
+}
+
+.mid .hero p{
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    padding-bottom: 1rem;;
+}
+
+.mid .hero a{
+    font-family: 'Poppins', sans-serif;
+    background: #00BF85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.mid .hero a:hover{
+    background: #fff;
+}
+
+.about {
+    background: #000;
+}
+
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.about .text h6 {
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.about .text h2 {
+    color: #f7f5f4;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+
+.about .text p {
+    color: #f7f5f4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing:0.5px;
+}
+
+.about .text a{
+    font-family: 'Poppins', sans-serif;
+    background: #00BF85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.discovery {
+ 
+}
+
+.discovery .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.discovery .text h6 {
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.discovery .text h2 {
+    color: #111;
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+
+.discovery .text p {
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing:0.5px;
+}
+
+.discovery .text a{
+    font-family: 'Poppins', sans-serif;
+    background: #111;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+}
